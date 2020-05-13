@@ -1,46 +1,4 @@
 
-<!-- MarkdownTOC -->
-
-- [Managing transactions](#managing-transactions)
-	- [Motivation](#motivation)
-	- [ACID consistency model](#acid-consistency-model)
-		- [Definition](#definition)
-		- [XA standards - Distributed transactions](#xa-standards---distributed-transactions)
-			- [Two phase commit](#two-phase-commit)
-				- [Assumptions](#assumptions)
-				- [Algorithm](#algorithm)
-				- [Proof of correctness](#proof-of-correctness)
-				- [Pros](#pros)
-				- [Cons](#cons)
-				- [References](#references)
-			- [Three phase commit](#three-phase-commit)
-				- [Motivation](#motivation-1)
-				- [Limitation](#limitation)
-				- [References](#references-1)
-	- [BASE consistency model](#base-consistency-model)
-		- [Definition](#definition-1)
-		- [Synchronous implementations](#synchronous-implementations)
-			- [Try-Confirm-Cancel](#try-confirm-cancel)
-				- [Definition](#definition-2)
-				- [Pros](#pros-1)
-				- [Cons](#cons-1)
-			- [Distributed Sagas](#distributed-sagas)
-				- [Motivation](#motivation-2)
-				- [Definition](#definition-3)
-				- [Assumptions](#assumptions-1)
-				- [Approaches](#approaches)
-				- [Pros](#pros-2)
-				- [Cons](#cons-2)
-				- [References](#references-2)
-		- [Asynchronous implementations](#asynchronous-implementations)
-			- [Use cases](#use-cases)
-			- [RocketMQ as an example](#rocketmq-as-an-example)
-				- [Concept](#concept)
-				- [Algorithm](#algorithm-1)
-				- [References](#references-3)
-
-<!-- /MarkdownTOC -->
-
 # Managing transactions
 ## Motivation
 * Database is partitioned across multiple machines for scalability. A transaction might touch more than one partition. How do we guarantee that all of the partitions commit the transaction or none commit the transactions?
