@@ -1,35 +1,3 @@
-
-<!-- MarkdownTOC -->
-
-- [Large number names](#large-number-names)
-	- [2 base](#2-base)
-	- [10 base](#10-base)
-	- [Translate](#translate)
-- [Latency numbers](#latency-numbers)
-	- [CPU](#cpu)
-	- [Cache](#cache)
-	- [Disk](#disk)
-	- [Network](#network)
-- [C10K](#c10k)
-	- [Definition](#definition)
-	- [Initial proposal](#initial-proposal)
-	- [Next stage - C10M](#next-stage---c10m)
-- [Server loads](#server-loads)
-	- [I/O bound](#io-bound)
-	- [CPU bound](#cpu-bound)
-	- [Typical load](#typical-load)
-	- [Estimate RPS](#estimate-rps)
-- [Monthly active user](#monthly-active-user)
-	- [Unsuitable cases](#unsuitable-cases)
-	- [Changes in MAU](#changes-in-mau)
-		- [Increase in MAU](#increase-in-mau)
-		- [Decrease in MAU](#decrease-in-mau)
-- [Statistics](#statistics)
-	- [Facebook \(Dec 2019\)](#facebook-dec-2019)
-	- [Slack](#slack)
-
-<!-- /MarkdownTOC -->
-
 # Large number names
 ## 2 base
 
