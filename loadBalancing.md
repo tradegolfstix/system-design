@@ -1,15 +1,3 @@
-<!-- MarkdownTOC -->
-
-- [Load balancing](#load-balancing)
-	- [Definition](#definition)
-	- [Benefits](#benefits)
-	- [Round-robin algorithm](#round-robin-algorithm)
-	- [Hardware vs software](#hardware-vs-software)
-		- [HAProxy vs Nginx](#haproxy-vs-nginx)
-
-<!-- /MarkdownTOC -->
-
-
 # Load balancing
 ## Definition
 * Client to gateway: 
