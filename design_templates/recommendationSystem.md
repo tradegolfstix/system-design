@@ -1,19 +1,3 @@
-<!-- MarkdownTOC -->
-
-- [Recommendation system](#recommendation-system)
-	- [Use cases](#use-cases)
-	- [Components](#components)
-	- [Overview](#overview)
-		- [Cold start](#cold-start)
-		- [Offline processing](#offline-processing)
-		- [Online processing](#online-processing)
-	- [Design](#design)
-		- [Version 1](#version-1)
-		- [Version 2](#version-2)
-		- [Version 3](#version-3)
-
-<!-- /MarkdownTOC -->
-
 # Recommendation system
 
 ## Use cases
