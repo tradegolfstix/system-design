@@ -1,5 +1,10 @@
 # TopK
 
+# Problem statement
+## Find top k (or most frequent) numbers in a stream
+* Given an array of n numbers. Your task is to read numbers from the array and keep at-most K numbers at the top (According to their decreasing frequency) every time a new number is read. We basically need to print top k numbers sorted by frequency when input stream has included k distinct elements, else need to print all distinct elements sorted by frequency.
+* source: https://www.geeksforgeeks.org/find-top-k-or-most-frequent-numbers-in-a-stream/
+
 # MapReduce
 ## Standalone word count program
 * The program loops through all the documents. For each document, the words are extracted one by one using a tokenization process. For each word, its corresponding entry in a multiset called wordCount is incremented by one. At the end, a display() function prints out all the entries in wordCount.
