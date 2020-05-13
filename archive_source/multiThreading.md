@@ -1,32 +1,5 @@
 # Multithreading
 
-<!-- MarkdownTOC -->
-
-- [Thread basics](#thread-basics)
-	- [Thread and process](#thread-and-process)
-	- [Create threads](#create-threads)
-		- [Implementing the Runnable interface](#implementing-the-runnable-interface)
-		- [Extending the Thread class](#extending-the-thread-class)
-		- [Extending the Thread Class vs Implementing the Runnable Interface](#extending-the-thread-class-vs-implementing-the-runnable-interface)
-	- [Deadlock](#deadlock)
-		- [Def](#def)
-		- [Conditions](#conditions)
-	- [Java concurrency APIs](#java-concurrency-apis)
-- [Counters](#counters)
-- [Singleton](#singleton)
-- [BoundedBlockingQueue](#boundedblockingqueue)
-- [Readers/writers lock](#To be finished)
-- [Thread-safe producer and consumer](#thread-safe-producer-and-consumer)
-- [Delayed scheduler](#delayed-scheduler)
-	- [Interfaces to be implemented](#interfaces-to-be-implemented)
-	- [Single thread](#single-thread)
-	- [One thread for each task](#one-thread-for-each-task)
-	- [PriorityQueue + A background thread](#priorityqueue--a-background-thread)
-
-<!-- /MarkdownTOC -->
-
-
-
 # Thread basics
 ## Thread and process
 * Similar goals: Split up workload into multiple parts and partition tasks into different, multiple tasks for these multiple actors. Two common ways of doing this are multi-threaded programs and multi-process systems. 
