@@ -18,3 +18,8 @@
 | Concepts        | Type           | General  | Domain | Expert |
 | --- | --- | --- | --- | --- |
 | Database Design      | | X | X | | |
+| Database Scale      | | X | X | | |
+| SQL design      | | X | X | | |
+| SQL practice in design      | | X | X | | |
+| Cache      | | X |  | | |
+| CAP Theorem | | X |  | | |
