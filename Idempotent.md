@@ -1,38 +1,3 @@
-
-<!-- MarkdownTOC -->
-
-- [Idempotency](#idempotency)
-	- [Scenario](#scenario)
-		- [Network problems or repeated operations](#network-problems-or-repeated-operations)
-		- [Third party callbacks](#third-party-callbacks)
-	- [Http idempotency](#http-idempotency)
-		- [Safe vs Idempotent Methods](#safe-vs-idempotent-methods)
-		- [Why PUT Idempotent and PATCH not](#why-put-idempotent-and-patch-not)
-		- [Why DELETE is Idempotent](#why-delete-is-idempotent)
-	- [Implementation](#implementation)
-		- [Within standalone applications](#within-standalone-applications)
-		- [Within DB layer of distributed applications](#within-db-layer-of-distributed-applications)
-			- [CRUD operations](#crud-operations)
-				- [Create/Insert](#createinsert)
-				- [Read/Select](#readselect)
-				- [Update](#update)
-				- [Delete](#delete)
-			- [Avoid replica databases](#avoid-replica-databases)
-			- [Unique constraint within DB](#unique-constraint-within-db)
-		- [Within business layer of distributed applications](#within-business-layer-of-distributed-applications)
-			- [Distributed lock](#distributed-lock)
-	- [Generate the idempotency key](#generate-the-idempotency-key)
-		- [Where](#where)
-		- [How](#how)
-			- [Snowflake](#snowflake)
-			- [MongoDB's Object Id](#mongodbs-object-id)
-			- [Database ticket servers](#database-ticket-servers)
-			- [Leaf](#leaf)
-			- [Wechat seqsvr](#wechat-seqsvr)
-			- [Design by yourself](#design-by-yourself)
-
-<!-- /MarkdownTOC -->
-
 # Idempotency
 ## Scenario 
 ### Network problems or repeated operations
