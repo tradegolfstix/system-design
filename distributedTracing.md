@@ -1,20 +1,3 @@
-<!-- MarkdownTOC -->
-
-- [Distributed tracing](#distributed-tracing)
-	- [Use case](#use-case)
-	- [History](#history)
-	- [Requirements](#requirements)
-	- [Components](#components)
-		- [Generate logs](#generate-logs)
-			- [Unique Id](#unique-id)
-		- [Offline analysis](#offline-analysis)
-		- [Real-time analysis](#real-time-analysis)
-		- [Full data](#full-data)
-	- [Pinpoint](#pinpoint)
-		- [Supported intercepting components](#supported-intercepting-components)
-		- [How to generate Spanner ID](#how-to-generate-spanner-id)
-
-<!-- /MarkdownTOC -->
 
 # Distributed tracing
 ## Use case
