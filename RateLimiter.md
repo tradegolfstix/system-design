@@ -1,41 +1,5 @@
 # Rate limiter
 
-<!-- MarkdownTOC -->
-
-- [Goals](#goals)
-- [Algorithm](#algorithm)
-	- [Token bucket](#token-bucket)
-	- [Leaky bucket](#leaky-bucket)
-	- [Fixed window](#fixed-window)
-	- [Sliding log](#sliding-log)
-	- [Sliding window](#sliding-window)
-- [Single machine rate limit](#single-machine-rate-limit)
-	- [Guava rate limiter](#guava-rate-limiter)
-		- [Implementation](#implementation)
-			- [Producer consumer pattern](#producer-consumer-pattern)
-		- [Record the next time a token is available](#record-the-next-time-a-token-is-available)
-			- [Warm up feature](#warm-up-feature)
-	- [Ratelimiter within Resiliency4J](#ratelimiter-within-resiliency4j)
-- [Distributed rate limit](#distributed-rate-limit)
-	- [Sticky sessions](#sticky-sessions)
-	- [Nginx based rate limiting](#nginx-based-rate-limiting)
-	- [Redis based rate limiter](#redis-based-rate-limiter)
-		- [Implementation](#implementation-1)
-			- [Sliding log implementation using ZSet](#sliding-log-implementation-using-zset)
-			- [Sliding window implementation](#sliding-window-implementation)
-			- [Token bucket implementation](#token-bucket-implementation)
-		- [Challenges](#challenges)
-			- [How to handle race conditions](#how-to-handle-race-conditions)
-			- [How to handle the additional latency introduce by performance](#how-to-handle-the-additional-latency-introduce-by-performance)
-			- [How to avoid multiple round trips for different buckets:](#how-to-avoid-multiple-round-trips-for-different-buckets)
-			- [Performance bottleneck and single point failure due to Redis](#performance-bottleneck-and-single-point-failure-due-to-redis)
-			- [Static rate limit threshold](#static-rate-limit-threshold)
-	- [Ratelimiter within CloudBouncer](#ratelimiter-within-cloudbouncer)
-	- [Redis cell rate limiter](#redis-cell-rate-limiter)
-
-<!-- /MarkdownTOC -->
-
-
 ## Goals
 * Sharing access to limited resources: Requests made to an API where the limited resources are your server capacity, database load, etc.
 * Security: Limiting the number of second factor attempts that a user is allowed to perform, or the number of times they’re allowed to get their password wrong.
