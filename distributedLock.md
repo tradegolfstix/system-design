@@ -1,33 +1,4 @@
 
-<!-- MarkdownTOC -->
-
-- [Distributed lock](#distributed-lock)
-	- [Use cases](#use-cases)
-	- [Requirementss](#requirementss)
-	- [AP model - Redis](#ap-model---redis)
-		- [Internals](#internals)
-		- [Efficiency implementation](#efficiency-implementation)
-			- [Acquire lock](#acquire-lock)
-			- [Release lock](#release-lock)
-			- [Pros](#pros)
-			- [Cons](#cons)
-				- [Limited use cases](#limited-use-cases)
-				- [Link to history on RedLock](#link-to-history-on-redlock)
-	- [CP model](#cp-model)
-		- [Comparison](#comparison)
-		- [Database](#database)
-			- [Approach](#approach)
-			- [Pros and Cons](#pros-and-cons)
-		- [Zookeeper](#zookeeper)
-			- [Algorithm](#algorithm)
-			- [Design considerations:](#design-considerations)
-			- [Implementation](#implementation)
-			- [Pros and Cons](#pros-and-cons-1)
-		- [etcd](#etcd)
-			- [Operations](#operations)
-			- [Limitations](#limitations)
-
-<!-- /MarkdownTOC -->
 
 # Distributed lock
 ## Use cases
