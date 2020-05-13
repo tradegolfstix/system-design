@@ -1,39 +1,4 @@
 
-
-<!-- MarkdownTOC -->
-
-- [RPC](#rpc)
-	- [Goal](#goal)
-	- [RPC vs REST](#rpc-vs-rest)
-	- [Components](#components)
-		- [Overview](#overview)
-		- [Interface definition language](#interface-definition-language)
-		- [Marshal/Unmarshal](#marshalunmarshal)
-		- [Server processing model](#server-processing-model)
-		- [Binding](#binding)
-		- [Transport protocol](#transport-protocol)
-		- [Serialization protocol](#serialization-protocol)
-		- [Semantics of RPC](#semantics-of-rpc)
-			- [At least once](#at-least-once)
-			- [Exactly once](#exactly-once)
-			- [At most once](#at-most-once)
-				- [Designs](#designs)
-			- [Last of many](#last-of-many)
-	- [Implementations](#implementations)
-		- [History](#history)
-		- [gRPC](#grpc)
-			- [History](#history-1)
-			- [Features](#features)
-				- [Multi-language, multi-platform framework](#multi-language-multi-platform-framework)
-				- [Transport over HTTP/2 + TLS](#transport-over-http2--tls)
-				- [C/C++ implementation goals](#cc-implementation-goals)
-			- [Components](#components-1)
-		- [Comparison](#comparison)
-			- [Cross language RPC: gRPC vs Thrift](#cross-language-rpc-grpc-vs-thrift)
-			- [Same language RPC: Tars vs Dubbo vs Motan vs Spring Cloud](#same-language-rpc-tars-vs-dubbo-vs-motan-vs-spring-cloud)
-
-<!-- /MarkdownTOC -->
-
 # RPC 
 ## Goal
 * Make the process of executing code on a remote machine as simple and straight-forward as calling a local functions. 
