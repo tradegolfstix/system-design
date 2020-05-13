@@ -1,18 +1,5 @@
 # Monitor system
 
-<!-- MarkdownTOC -->
-
-- [Rate limiter](#rate-limiter)
-	- [Scenario](#scenario)
-	- [Storage](#storage)
-	- [Initial solution](#initial-solution)
-	- [Final solution](#final-solution)
-- [Data dog](#data-dog)
-	- [Scenario](#scenario-1)
-	- [Storage](#storage-1)
-
-<!-- /MarkdownTOC -->
-
 ## Rate limiter
 ### Scenario
 * Limit according to IP / UserId / Email
