@@ -23,3 +23,7 @@
 | SQL practice in design      | | X | X | | |
 | Cache      | | X |  | | |
 | CAP Theorem | | X |  | | |
+| [Data intensive App](https://github.com/tradegolfstix/system-design/blob/master/distributingData.md) | | X |  | | |
+| [Distrib Data](https://github.com/tradegolfstix/system-design/blob/master/distributedTransactions.md) | | X |  | | |
+
+
