@@ -1,48 +1,6 @@
 
 # Registration center
 
-<!-- MarkdownTOC -->
-
-- [Responsibility](#responsibility)
-	- [Service registration](#service-registration)
-	- [Service discovery](#service-discovery)
-	- [Heartbeat detection](#heartbeat-detection)
-- [CP or AP model?](#cp-or-ap-model)
-	- [Case study](#case-study)
-- [Implementation](#implementation)
-	- [Comparison \(In Chinese\)](#comparison-in-chinese)
-	- [Zookeeper?](#zookeeper)
-		- [Definition](#definition)
-		- [Functionality](#functionality)
-		- [Limitations](#limitations)
-			- [CP model](#cp-model)
-			- [Scalability](#scalability)
-			- [Storage](#storage)
-			- [Service health check](#service-health-check)
-			- [Nonfault tolerant native client](#nonfault-tolerant-native-client)
-		- [Applicable scenarios](#applicable-scenarios)
-	- [DIY](#diy)
-		- [Requirements](#requirements)
-		- [Standalone design](#standalone-design)
-			- [Service management platform](#service-management-platform)
-			- [Business logic unit](#business-logic-unit)
-			- [Gateway](#gateway)
-			- [Registration center](#registration-center)
-				- [Registration center client](#registration-center-client)
-				- [Registration center plugin](#registration-center-plugin)
-			- [Flowchart](#flowchart)
-				- [Instruction pushdown](#instruction-pushdown)
-				- [Service stop](#service-stop)
-				- [Service start](#service-start)
-				- [Service lookup](#service-lookup)
-			- [Comparison \(In Chinese\)](#comparison-in-chinese-1)
-		- [Scalable design](#scalable-design)
-			- [Registration center](#registration-center-1)
-			- [Registration center plugin](#registration-center-plugin-1)
-		- [Question](#question)
-
-<!-- /MarkdownTOC -->
-
 ## Responsibility
 ### Service registration
 ### Service discovery
