@@ -216,14 +216,15 @@ Handy metrics based on numbers above:
 * Number of teams that use the free version of Slack: 550,000
 * Number of paid Teams on slack 88,000
 
-
-
-
-
-
-
-
-
-
-
 * Facebook: 2.5 Billion
+
+
+
+
+#### Source(s) and further reading
+
+* [Latency numbers every programmer should know - 1](https://gist.github.com/jboner/2841832)
+* [Latency numbers every programmer should know - 2](https://gist.github.com/hellerbarde/2843375)
+* [Designs, lessons, and advice from building large distributed systems](http://www.cs.cornell.edu/projects/ladis2009/talks/dean-keynote-ladis2009.pdf)
+* [Software Engineering Advice from Building Large-Scale Distributed Systems](https://static.googleusercontent.com/media/research.google.com/en//people/jeff/stanford-295-talk.pdf)
+
