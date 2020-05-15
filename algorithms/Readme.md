@@ -170,10 +170,10 @@
     - [Eulerian Path](./graph/euler_path.html)
 - **Lowest common ancestor**
     - [Lowest Common Ancestor](./graph/lca.html)
-    ~~- [Lowest Common Ancestor - Binary Lifting](./graph/lca_binary_lifting.html)~~
-    ~~- [Lowest Common Ancestor - Farach-Colton and Bender algorithm](./graph/lca_farachcoltonbender.html)~~
-    ~~- [Solve RMQ by finding LCA](./graph/rmq_linear.html)~~
-    ~~- [Lowest Common Ancestor - Tarjan's off-line algorithm](./graph/lca_tarjan.html)~~
+    ~~ - [Lowest Common Ancestor - Binary Lifting](./graph/lca_binary_lifting.html)~~
+    ~~ - [Lowest Common Ancestor - Farach-Colton and Bender algorithm](./graph/lca_farachcoltonbender.html)~~
+    ~~ - [Solve RMQ by finding LCA](./graph/rmq_linear.html)~~
+    ~~ - [Lowest Common Ancestor - Tarjan's off-line algorithm](./graph/lca_tarjan.html)~~
 - **Flows and related problems**
     - [Maximum flow - Ford-Fulkerson and Edmonds-Karp](./graph/edmonds_karp.html)
     - [Maximum flow - Push-relabel algorithm](./graph/push-relabel.html)
