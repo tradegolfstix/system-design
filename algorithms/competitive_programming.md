@@ -31,7 +31,7 @@
 - **Miscellaneous**
     - [Enumerating submasks of a bitmask](./algebra/all-submasks.html)
     - [Arbitrary-Precision Arithmetic](./algebra/big-integer.html)
-    - [Fast Fourier transform](./algebra/fft.html)
+    - [Fast Fourier transform](./algebra/fft.md)
     - [Operations on polynomials and series](./algebra/polynomial.html)
 
 ### Data Structures
