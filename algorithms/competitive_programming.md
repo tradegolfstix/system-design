@@ -1,4 +1,4 @@
-## Articles
+## Algorithms for CP
 
 ### Algebra
 
